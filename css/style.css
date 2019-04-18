@@ -34,3 +34,18 @@ button {
 #NOS {
   display: none;	
 }
+.footer {
+  font-family: Roboto;
+  font-weight: 200;
+  background: #333;
+  width: auto;
+  right: 0;
+  color: #fff;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
