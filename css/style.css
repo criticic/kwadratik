@@ -1,0 +1,36 @@
+/* This file is: style.css */
+h1 {
+  font-family: 'Cute Font', cursive;
+  margin-bottom: 30px;
+}
+p {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  width: 80px;	
+  font-size: 28px;
+}
+
+#input {
+  font-size: 28px;
+}
+
+button {
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#NOS {
+  display: none;	
+}
