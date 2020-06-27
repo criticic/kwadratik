@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kwadratik.netlify.app
+Token: 1b232635e0da0c05f486e6cbdc2a64b74ddaf1c5813c739424098eb0d1ae7d43
