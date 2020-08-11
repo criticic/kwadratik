@@ -16,6 +16,8 @@ var a = parseInt( getVal("a") ),
     b = parseInt( getVal("b") ),
     c = parseInt( getVal("c") ),
     d = parseInt( getVal("d") );
+s1  = getID("S1")
+s1.innerHTML = "";
     if (Math.abs(a) < 1e-8) { // Quadratic case, ax^2+bx+c=0
         a = b; b = c; c = d;
         if (Math.abs(a) < 1e-8) { // Linear case, ax+b=0
@@ -61,7 +63,7 @@ var a = parseInt( getVal("a") ),
     for (var i = 0; i < roots.length; i++)
         roots[i] -= b/(3*a);
 
-    console.log(roots);
+    s1.innerHTML = roots;
 }
 function solve() {
   var a = parseInt( getVal("a") ),
