@@ -1,0 +1,51 @@
+/* This file is: style.css */
+h1 {
+  font-family: 'Cute Font', cursive;
+  margin-bottom: 30px;
+}
+p {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  width: 80px;	
+  font-size: 28px;
+}
+
+#input {
+  font-size: 28px;
+}
+
+button {
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#NOS {
+  display: none;	
+}
+.footer {
+  font-family: Roboto;
+  font-weight: 200;
+  background: #333;
+  width: auto;
+  right: 0;
+  color: #fff;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
