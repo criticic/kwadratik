@@ -14,7 +14,8 @@ function cuberoot(x) {
 function solveCubic() {
 var a = parseInt( getVal("a") ),
     b = parseInt( getVal("b") ),
-    c = parseInt( getVal("c") );
+    c = parseInt( getVal("c") ),
+    d = parseInt( getVal("d") );
     if (Math.abs(a) < 1e-8) { // Quadratic case, ax^2+bx+c=0
         a = b; b = c; c = d;
         if (Math.abs(a) < 1e-8) { // Linear case, ax+b=0
