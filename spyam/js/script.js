@@ -11,9 +11,7 @@ function solve() {
   var a = parseInt( getVal("a") ),
     b = parseInt( getVal("b") ),
   if ( isNaN(a) ) { a = 1; }
-  if ( isNaN(b) ) { b = 0; }
-  if ( isNaN(c) ) { c = 0; }
-  var D = b*b - 4 * a * c;	
+  if ( isNaN(b) ) { b = 0; }	
   var dis = getID("DIS"),
     nos = getID("NOS"),
     s1  = getID("S1"),
@@ -39,18 +37,9 @@ function solve() {
     headers: { 
         "Content-type": "application/json; charset=UTF-8"
     } 
-}).then(response => response.json()).then(json => console.log(json)); if (D < 0) {
-    nos.style.display = "block";
-  } 
-  else if (D == 0) {
-    var S = -b / (2 * a);
-    s1.innerHTML = S.toString();
-  } 
-  else {
-    var S1 = ( -b + Math.sqrt(D) ) / (2 * a),
-      S2 = ( -b - Math.sqrt(D) ) / (2 * a);
-    s1.innerHTML = S1.toString();
-    s2.innerHTML = S2.toString();
+})
+.then(res => res.json())
+.then(res => console.log(res));
 }
 var submitButton = document.getElementById("submit");
 submitButton.onclick = function() {
